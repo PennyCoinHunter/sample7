@@ -124,6 +124,12 @@ body, html {
     bottom: 50px;
   }
 
+  #musicButton {
+    margin-top: 12px;
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
   #openButton {
     font-size: 14px;
     padding: 8px 16px;
