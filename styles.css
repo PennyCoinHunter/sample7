@@ -109,6 +109,15 @@ body, html {
   text-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
 }
 
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  z-index: 1;
+}
+
 /* Media query for tablets and smaller screens */
 @media only screen and (max-width: 768px) {
   .door {
@@ -134,4 +143,12 @@ body, html {
     font-size: 14px;
     padding: 8px 16px;
   }
+
+  .logo {
+    top: 10px;
+    left: 20px;
+    width: 80px; /* Adjust width for smaller screens */
+  }
 }
+
+
